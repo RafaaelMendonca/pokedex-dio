@@ -1,0 +1,45 @@
+@media screen and (min-width: 350px){
+    .content{
+        max-width: 350px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 350px){
+    ol.pokemons{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .content{
+        max-width: 576px;
+        width: auto;
+
+    }
+}
+
+@media screen and (min-width: 576px){
+    ol.pokemons{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        width: auto;
+        justify-content: center;
+        /* centraliza com o auto, ele coloca o maximo de distancia para a esquerda e para a direita */
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    ol.pokemons{
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
